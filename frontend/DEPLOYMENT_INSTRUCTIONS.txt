@@ -1,0 +1,96 @@
+========================================
+GITHUB PAGES DEPLOYMENT INSTRUCTIONS
+========================================
+
+YOUR PORTFOLIO WILL BE LIVE AT:
+https://hdachiraju.github.io/Portfolio/
+
+========================================
+QUICK START GUIDE
+========================================
+
+STEP 1: Get Updated Files from Emergent
+----------------------------------------
+Download these updated files from this Emergent workspace:
+- /app/frontend/package.json (updated with homepage and deploy scripts)
+- /app/frontend/src/App.js (updated with basename)
+- /app/frontend/yarn.lock (updated dependencies)
+
+Copy them to your local Portfolio project, replacing the old versions.
+
+STEP 2: Install Dependencies
+----------------------------------------
+Open terminal in your Portfolio/frontend directory:
+
+    cd /path/to/Portfolio/frontend
+    yarn install
+
+STEP 3: Test Build Locally (Optional)
+----------------------------------------
+    yarn build
+
+If successful, you'll see a "build" folder created.
+
+STEP 4: Deploy to GitHub Pages
+----------------------------------------
+    yarn deploy
+
+This will:
+- Build your React app
+- Create/update the gh-pages branch
+- Push the build to GitHub
+
+STEP 5: Enable GitHub Pages (First Time Only)
+----------------------------------------
+1. Go to: https://github.com/hdachiraju/Portfolio/settings/pages
+2. Under "Source", select:
+   - Branch: gh-pages
+   - Folder: / (root)
+3. Click "Save"
+4. Wait 1-2 minutes
+
+STEP 6: Visit Your Live Site
+----------------------------------------
+https://hdachiraju.github.io/Portfolio/
+
+========================================
+FUTURE UPDATES
+========================================
+
+Whenever you make changes:
+
+1. Make your code changes
+2. Run: yarn deploy
+3. Wait 1-2 minutes
+4. Refresh: https://hdachiraju.github.io/Portfolio/
+
+========================================
+IMPORTANT FILES UPDATED
+========================================
+
+package.json changes:
+- Added: "homepage": "https://hdachiraju.github.io/Portfolio"
+- Added: "predeploy": "npm run build"
+- Added: "deploy": "gh-pages -d build"
+- Added: gh-pages as dev dependency
+
+App.js changes:
+- Updated: <BrowserRouter basename={process.env.PUBLIC_URL}>
+
+========================================
+TROUBLESHOOTING
+========================================
+
+If site shows blank page:
+- Clear browser cache (Ctrl+Shift+R)
+- Check homepage URL matches exactly: "Portfolio" (capital P)
+- Verify gh-pages branch exists in GitHub
+
+If deploy fails:
+- Ensure you're in frontend directory
+- Check git remote: git remote -v
+- Try: npx gh-pages -d build
+
+========================================
+
+See /app/GITHUB_PAGES_DEPLOYMENT.md for detailed documentation.
