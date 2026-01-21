@@ -12,8 +12,8 @@ const Projects = () => {
       date: 'March 2022',
       description: 'Engineered a MEAN Stack web application to verify and validate certificates, integrating Blockchain technology to enhance security and authenticity. This project was awarded first prize at the University Project Fest for outstanding project execution and innovation.',
       technologies: ['MongoDB', 'Express.js', 'Angular', 'Node.js', 'Blockchain', 'Web3'],
-      github: 'https://github.com/hdachiraju/certificate-verification-blockchain',
-      demo: null,
+      github: 'https://github.com/hdachiraju/Certificate-V---Blockchain',
+      demo: 'https://hdachiraju.github.io/Certificate-V---Blockchain/',
       award: 'First Prize at University Project Fest',
       highlights: [
         'Implemented blockchain technology for tamper-proof certificate storage',
@@ -28,8 +28,8 @@ const Projects = () => {
       date: 'March 2021',
       description: 'Led a team of four developers to create a comprehensive car sales and rentals website. Focused on user interface design and front-end development, delivering a seamless user experience with modern web technologies.',
       technologies: ['MongoDB', 'Express.js', 'Angular', 'Node.js', 'Bootstrap', 'RESTful API'],
-      github: 'https://github.com/hdachiraju/car-sales-rentals',
-      demo: null,
+      github: 'https://github.com/hdachiraju/Car',
+      demo: 'https://hdachiraju.github.io/Car/',
       award: null,
       highlights: [
         'Led team of 4 developers in full project lifecycle',
@@ -144,7 +144,7 @@ const Projects = () => {
                         >
                           <a href={project.github} target="_blank" rel="noopener noreferrer">
                             <Github size={18} className="mr-2" />
-                            View Code
+                            View
                           </a>
                         </Button>
                         {project.demo && (
