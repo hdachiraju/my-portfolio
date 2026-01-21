@@ -9,7 +9,7 @@ const Education = () => {
       institution: 'University of Alabama at Birmingham',
       location: 'Birmingham, Alabama, USA',
       period: 'August 2024 – Present',
-      gpa: '3.66 / 4.0',
+      gpa: '3.55 / 4.0',
       status: 'In Progress',
       color: 'cyan'
     },
