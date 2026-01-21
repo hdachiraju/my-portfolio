@@ -144,7 +144,7 @@ const Projects = () => {
                         >
                           <a href={project.github} target="_blank" rel="noopener noreferrer">
                             <Github size={18} className="mr-2" />
-                            View Code
+                            View
                           </a>
                         </Button>
                         {project.demo && (
