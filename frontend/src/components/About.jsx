@@ -42,7 +42,7 @@ const About = () => {
               <h3 className="text-2xl font-bold text-white mb-4">My Journey</h3>
               <p className="text-gray-300 mb-4 leading-relaxed">
                 I'm a passionate software engineer currently pursuing my Master's degree in Computer and Information Sciences 
-                at the University of Alabama at Birmingham, maintaining a 3.66 GPA.
+                at the University of Alabama at Birmingham, maintaining a 3.55 GPA.
               </p>
               <p className="text-gray-300 mb-4 leading-relaxed">
                 My professional journey at Accenture has been diverse and enriching. I started as an Application Developer, 
