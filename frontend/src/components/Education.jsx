@@ -8,10 +8,10 @@ const Education = () => {
       degree: 'Master of Science in Computer and Information Sciences',
       institution: 'University of Alabama at Birmingham',
       location: 'Birmingham, Alabama, USA',
-      period: 'Graduated May 2026',
-      gpa: '3.50 / 4.0',
-      status: 'Completed',
-      color: 'blue'
+      period: 'August 2024 – Present',
+      gpa: '3.55 / 4.0',
+      status: 'In Progress',
+      color: 'cyan'
     },
     {
       degree: 'Bachelor of Technology in Computer Science and Engineering',
