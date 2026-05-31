@@ -8,9 +8,9 @@ const Education = () => {
       degree: 'Master of Science in Computer and Information Sciences',
       institution: 'University of Alabama at Birmingham',
       location: 'Birmingham, Alabama, USA',
-      period: 'August 2024 – Present',
-      gpa: '3.55 / 4.0',
-      status: 'In Progress',
+      period: 'Graduated May 2026',
+      gpa: '3.50 / 4.0',
+      status: 'Completed',
       color: 'cyan'
     },
     {
@@ -48,7 +48,7 @@ const Education = () => {
                     </div>
                     <div className={`px-3 py-1 rounded-full text-xs font-semibold ${
                       edu.status === 'In Progress' 
-                        ? 'bg-green-500/10 text-green-400 border border-green-400/30' 
+                        ? 'bg-blue-500/10 text-blue-400 border border-blue-400/30' 
                         : 'bg-blue-500/10 text-blue-400 border border-blue-400/30'
                     }`}>
                       {edu.status}
